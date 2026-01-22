@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: rgb(196, 255, 108);
+            color: rgb(22, 84, 22)
+        }
+        input[type="number"] {
+            padding: 8px;
+            font-size: 16px;
+        }
+        input[type="button"] {
+            padding: 8px 12px;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        #output {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+    <title>if elif else</title>
+</head>
+<body>
+    <form>
+        <input type="number" id="input1" placeholder="eeeeeeeeeee">
+        <input type="button" py-click="studentClassification" value="reveal">
+    </form>
+
+    <div id="output"></div>
+    <py-script src="main.py"></py-script>
+
+    
+</body>
+</html>
